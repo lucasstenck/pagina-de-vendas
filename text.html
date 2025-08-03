@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body onload='meuRelogio()'>
+
+<p>Aguarde 3 segundos para ver a hora atual.</p>
+
+<h2 id='rel'></h2>
+
+<script>
+
+function meuRelogio() {
+  setTimeout(function() {
+  		var x = new Date().toLocaleTimeString();
+        document.getElementById('rel').innerHTML = x;
+  }, 3000);
+}
+</script>
+
+</body>
+</html>
