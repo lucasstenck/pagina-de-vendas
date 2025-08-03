@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Reset e configurações globais */
+=======
+>>>>>>> 108991239d8e6a023f87067bb3ad228dadc1ae65
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +14,7 @@
 }
 
 body {
+<<<<<<< HEAD
     font-family: "Nunito", sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
@@ -439,10 +443,112 @@ body {
     
     .content_last_monts_acesso {
         margin: 2rem 1rem;
+=======
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/random/1920x1080/?nature,game') no-repeat center center fixed;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+       
+}
+
+.game-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.game-intro {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+canvas {
+    background-color: #B9D8B2;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 70vh;
+}
+
+.game-info {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+#gameOverMessage {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.game-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; 
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 768px) {
+    .game-container {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .game-intro {
+        font-size: 16px;
+    }
+    
+    canvas {
+        max-height: 60vh;
+    }
+    
+    .game-info {
+        font-size: 16px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+>>>>>>> 108991239d8e6a023f87067bb3ad228dadc1ae65
     }
 }
 
 @media (max-width: 480px) {
+<<<<<<< HEAD
     .rob_head_img {
         max-width: 150px;
     }
@@ -488,3 +594,28 @@ body {
 }
 
 
+=======
+    .game-container {
+        width: 98%;
+        padding: 10px;
+    }
+    
+    .game-intro {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    canvas {
+        max-height: 50vh;
+    }
+    
+    .game-info {
+        font-size: 14px;
+    }
+    
+    button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+>>>>>>> 108991239d8e6a023f87067bb3ad228dadc1ae65
